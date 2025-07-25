@@ -1,0 +1,73 @@
+.noto{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared items */
+.primary{
+  color: #E95A08;
+}
+.regular{
+  font-size: 1.30rem;
+  font-weight: 400;
+  color: #00000050;
+}
+/* navbar section */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 120px 150px 120px;
+}
+.navbar ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:48px;
+}
+
+.light{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #8987A1;
+}
+.cart{
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+}
+.home{
+  color:#252432;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.hero-title{
+  font-size: 4.1rem;
+  font-weight: bold;
+}
+.hero{
+  display: flex;
+  margin: 7.5rem 9.375rem;
+  position: relative;
+}
+.td{
+  max-width: 35.625rem;
+  margin-top: 10rem;
+}
+.hero-img{
+  max-width:35.625rem;
+  max-height: 22rem;
+  position:absolute;
+  bottom: 0;
+  right:0;
+}

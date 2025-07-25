@@ -1,20 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>second assignment</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+
 </head>
+
 <body>
-    <header>
+
+<header>
+<!-- Navbar -->
+<nav class="navbar">
+  <img src="assets/logo.png " alt="">
+  <ul>
+    <li><a class="home" href="">Home</a></li>
+    <li><a class="light" href="">Shop</a></li>
+    <li><a class="light" href="">About Us</a></li>
+    <li><a class="cart" href="">🛒Cart ($56)</a></li>
+  </ul>
+</nav>
+
+<!-- Hero Section -->
+ 
+<section class="hero">
+  <div class="td">
+    <h2 class="noto hero-title">
+      ALWAYS <span class="text-orange-500">FRESH FLOWERS</span>
+    </h2>
+    <p class="regular">
+      Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we
+      offer a wide variety of fresh flowers that are perfect for any occasion.
+    </p>
+  </div>
+  <div class="hero-img">
+    <img src="assets/hero-flower.png" alt="Flower Image" class="mx-auto w-72 md:w-96" />
+  </div>
+</section>
+
+</header>
+
+<main>
+<section class="plant-section">
+  <div class="tids">
+    <h3 class="plant-title">Our Plants</h3>
+    <p class="plant-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we
+    offer a wide variety of fresh.</p>
+  </div>
+  <div class="plant-card-container">
+    <div class="w-[270px]">
+      <img src="assets/sample-flower-image.png" alt="">
+      <h4 class="text-xl font-medium">Lily Blossom</h4>
+      <h3 class="text-2xl font-bold">20 USD</h3>
+      <button class="font-semibold text-base bg-[#E95A08] px-20 py-4">ADD TO CART</button>
+    </div>
+  </div>
+</section>
+</main>
 
 
-    </header>
-    <main>
 
-    </main>
-    <footer>
-        
-    </footer>
+
+<footer>
+
+</footer>
+
+
+
+
 </body>
+
 </html>
